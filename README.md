@@ -34,6 +34,23 @@
 - [🤝 贡献指南 (Contributing)](#-贡献指南-contributing)
 - [📄 开源协议 (License)](#-开源协议-license)
 
+``` text
+llm-learning-roadmap/
+├── README.md                   # 总览与路线图
+├── 01-fundamentals/            # 基础原理
+├── 02-data-engineering/        # 数据工程
+├── 03-pretraining/             # 预训练
+├── 04-alignment/               # 对齐与微调
+├── 05-inference-deployment/    # 推理优化与工程部署
+├── 06-llm-evaluation/          # 模型评估
+├── 07-safety-ethics/           # 安全与伦理
+├── 08-applications/            # 模型应用    
+  ├── 8.1-prompt/                # 提示词工程
+  ├── 8.2-rag/                  # 检索增强生成
+  ├── 8.3-agents-skills-mcp/    # 智能体与工具
+  ├── 8.4-ai-coding/            # AI编程
+└── 09-resources/               # 综合资源
+```
 ---
 
 ## 1. LLM 基础理论与核心原理 (Fundamentals)
