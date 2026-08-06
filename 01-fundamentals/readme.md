@@ -1,0 +1,2 @@
+## 书籍
+- <img src="https://img.shields.io/github/stars/rasbt/LLMs-from-scratchh?style=social" height="17" align="texttop"/> [LLMs-from-scratchh](https://github.com/rasbt/LLMs-from-scratch): 涵盖用于开发、预训练和微调类GPT大语言模型的代码
