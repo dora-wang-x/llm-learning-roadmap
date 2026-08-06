@@ -1,2 +1,3 @@
 ## 书籍
-- <img src="https://img.shields.io/github/stars/rasbt/LLMs-from-scratchh?style=social" height="17" align="texttop"/> [LLMs-from-scratchh](https://github.com/rasbt/LLMs-from-scratch): 涵盖用于开发、预训练和微调类GPT大语言模型的代码
+- <img src="https://img.shields.io/github/stars/rasbt/LLMs-from-scratch?style=social" height="17" align="texttop"/> [LLMs-from-scratchh](https://github.com/rasbt/LLMs-from-scratch): 涵盖用于开发、预训练和微调类GPT大语言模型的代码
+- <img src="https://img.shields.io/github/stars/LLMBook-zh/LLMBook-zh.github.io?style=social" height="17" align="texttop"/> [LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io): 《大语言模型》可作为LLM基础参考书，适用于有深度学习基础的读者，
