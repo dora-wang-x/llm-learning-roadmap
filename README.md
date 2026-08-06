@@ -3,9 +3,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/stars/dora-wang-x/llm-learning-roadmap-Path?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/forks/dora-wang-x/llm-learning-roadmap-Path?style=flat-square" alt="Forks">
+  <img src="https://img.shields.io/github/stars/dora-wang-x/llm-learning-roadmap?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/forks/dora-wang-x/llm-learning-roadmap?style=flat-square" alt="Forks">
 </p>
+
 
 > 涵盖大语言模型（LLM）从底层原理、数据工程、训练微调到 RAG、Agent 及工程落地的全栈学习资源汇总。
 
