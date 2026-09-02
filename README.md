@@ -7,147 +7,256 @@
   <img src="https://img.shields.io/github/forks/dora-wang-x/llm-learning-roadmap?style=flat-square" alt="Forks">
 </p>
 
-
-> 涵盖大语言模型（LLM）从底层原理、数据工程、训练微调到 RAG、Agent 及工程落地的全栈学习资源汇总。
+> 涵盖大语言模型（LLM）从底层原理、数据工程、预训练、对齐微调，到 RAG、Agent、推理部署与安全评估的**全栈学习资源汇总与工程落地路线图**。
 
 ---
 
 ## 📖 关于本项目 (About)
 
-**Awesome-LLM-Learning-Path** 旨在建立一个符合 **“底层原理 ➔ 数据工程 ➔ 预训练 ➔ 微调/对齐 ➔ 能力扩展/Skill ➔ RAG ➔ Agent ➔ 推理/部署”** 工程落地逻辑的大模型知识图谱与资源索引库。
+**llm-learning-roadmap**旨在建立一套符合 **“底层原理 ➔ 数据工程 ➔ 预训练 ➔ 微调 / 对齐 ➔ 推理部署 ➔ 评估 / 安全 ➔ 应用落地”** 工程逻辑的大模型知识图谱与资源索引库。
 
-无论你是刚入行 AI 的开发者、高校研究者，还是寻求落地实践的企业架构师，都可以通过本项目建立系统的大模型知识体系。
+无论你是刚入行 AI 的开发者、高校研究者，还是寻求落地实践的企业架构师，都可以沿着本项目梳理的路径，系统性地建立大模型知识体系。
+
+### ✨ 项目亮点
+
+- **覆盖完整**：13 个主题章节、**900+ 条**精选资源，从理论到生产全链路打通。
+- **工程导向**：按真实研发流程组织目录，而非按论文分类堆砌。
+- **中英并重**：兼顾国际前沿（论文 / 官方博客）与中文社区优质内容。
+- **持续维护**：每章配有独立 README，可逐章增量更新而不破坏整体结构。
 
 ---
 
-## 📑 目录 (Table of Contents)
+## � 目录 (Table of Contents)
 
 - [1. LLM 基础理论与核心原理 (Fundamentals)](#1-llm-基础理论与核心原理-fundamentals)
 - [2. 数据工程 (Data Engineering)](#2-数据工程-data-engineering)
 - [3. 预训练与基座模型 (Pre-training & Base Models)](#3-预训练与基座模型-pre-training--base-models)
 - [4. 微调、对齐与强化学习 (Fine-tuning & Alignment)](#4-微调对齐与强化学习-fine-tuning--alignment)
-- [5. 模型能力扩展与 Skill (Model Skills & Capabilities)](#5-模型能力扩展与-skill-model-skills--capabilities)
-- [6. 检索增强生成 (RAG & Knowledge Integration)](#6-检索增强生成-rag--knowledge-integration)
-- [7. LLM Agent & 应用开发 (Agents & Applications)](#7-llm-agent--应用开发-agents--applications)
-- [8. 推理加速与工程部署 (Inference & Deployment)](#8-推理加速与工程部署-inference--deployment)
-- [9. 模型评估、安全与红队测试 (Evaluation & Safety)](#9-模型评估安全与红队测试-evaluation--safety)
-- [🛠 常用工具库推荐 (Awesome Tools)](#-常用工具库推荐-awesome-tools)
+- [5. 推理加速与工程部署 (Inference & Deployment)](#5-推理加速与工程部署-inference--deployment)
+- [6. 模型评估 (LLM Evaluation)](#6-模型评估-llm-evaluation)
+- [7. 安全与伦理 (Safety & Ethics)](#7-安全与伦理-safety--ethics)
+- [8. 应用开发 (Applications)](#8-应用开发-applications)
+  - [8.1 提示词工程 (Prompt Engineering)](#81-提示词工程-prompt-engineering)
+  - [8.2 检索增强生成 (RAG)](#82-检索增强生成-rag)
+  - [8.3 Agent、Skill 与 MCP](#83-agentskill-与-mcp)
+  - [8.4 AI 编程 (AI Coding)](#84-ai-编程-ai-coding)
+  - [8.5 Deep Research 深度研究](#85-deep-research-深度研究)
+  - [8.6 MaaS 模型即服务](#86-maas-模型即服务)
+- [9. 综合资源 (Resources)](#9-综合资源-resources)
+- [🛠 目录结构 (Project Structure)](#-目录结构-project-structure)
 - [🤝 贡献指南 (Contributing)](#-贡献指南-contributing)
 - [📄 开源协议 (License)](#-开源协议-license)
 
-``` text
-llm-learning-roadmap/
-├── README.md                   # 总览与路线图
-├── 01-fundamentals/            # 基础原理
-├── 02-data-engineering/        # 数据工程
-├── 03-pretraining/             # 预训练
-├── 04-alignment/               # 对齐与微调
-├── 05-inference-deployment/    # 推理优化与工程部署
-├── 06-llm-evaluation/          # 模型评估
-├── 07-safety-ethics/           # 安全与伦理
-├── 08-applications/            # 模型应用    
-  ├── 8.1-prompt/                # 提示词工程
-  ├── 8.2-rag/                  # 检索增强生成
-  ├── 8.3-agents-skills-mcp/    # 智能体与工具
-  ├── 8.4-ai-coding/            # AI编程
-└── 09-resources/               # 综合资源
-```
 ---
 
 ## 1. LLM 基础理论与核心原理 (Fundamentals)
 
-*从经典 Transformer 到现代 LLM 架构演进的理论基石。*
+从经典 Transformer 到现代 LLM 架构演进的理论基石。
 
-### 核心论文 (Key Papers)
-- **Attention Is All You Need** (Vaswani et al., 2017) [[Paper]](https://arxiv.org/abs/1706.03762)
-- **RoFormer: Enhanced Transformer with Rotary Position Embedding** (Su et al., 2021) [[Paper]](https://arxiv.org/abs/2104.09864)
-- **LLaMA: Open and Efficient Foundation Language Models** (Touvron et al., 2023) [[Paper]](https://arxiv.org/abs/2302.13971)
-- **DeepSeek-V3 Technical Report** (DeepSeek, 2024) [[Paper]](https://github.com/deepseek-ai/DeepSeek-V3)
+从深度学习与 NLP 前置基础出发，梳理 LLM 核心架构、从零训练与后训练实践，并延伸到工程与应用开发入门。详见 [`01-fundamentals/README.md`](./01-fundamentals/README.md)。
 
-### 优质课程 (Courses & Tutorials)
-- **Stanford CS224N**: NLP with Deep Learning [[Course]](https://web.stanford.edu/class/cs224n/)
-- **Andrej Karpathy**: Neural Networks: Zero to Hero [[YouTube]](https://www.youtube.com/playlist?list=PLAqh184XbH8eK4hBUbf-5eddSkGLwah8I)
+- 前置基础：深度学习、NLP 与 Transformer
+- LLM 核心原理与模型架构
+- 从零训练与后训练实践
+- LLM 工程与应用开发基础
+- 扩展主题与持续学习资源
 
 ---
 
 ## 2. 数据工程 (Data Engineering)
 
-*“Data is all you need” —— 决定模型上限的生命线。*
+“Data is all you need” —— 决定模型上限的生命线。
 
-- **预训练数据处理**：去重（MinHash / Deduplication）、质量过滤、Tokenizer 训练（BPE, WordPiece）。
-- **SFT 数据构造**：Self-Instruct、Evol-Instruct、多轮对话构建与过滤。
-- **开源数据集**：
-  - [FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb) - 15T+ 高质量英文 Web 数据集
-  - [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback) - 大规模偏好对齐数据集
+覆盖从数据发现、清洗去重、转换标注到质量评估与数据治理的完整流水线，含指令 / 偏好数据与合成数据方向。详见 [`02-data-engineering/README.md`](./02-data-engineering/README.md)。
+
+- 数据发现与采集
+- 清洗、去重与过滤
+- 转换、标注与格式化
+- 质量评估与数据混合
+- 指令、偏好与人工反馈数据
+- 合成数据与数据扩增
+- 数据管道、DataOps 与治理
+
+
 
 ---
 
 ## 3. 预训练与基座模型 (Pre-training & Base Models)
 
-- **分布式并行**：DP, TP, PP, EP, CP 三维并行机制。
-- **经典框架**：
-  - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - NVIDIA 高性能大模型训练框架
-  - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - 微软分布式训练优化库
+从 Scaling Laws 到大规模分布式训练的基座模型构建。
+
+围绕预训练原理、模型实现、分布式并行、训练效率优化与语料工程展开，并跟踪前沿进展。详见 [`03-pretraining/README.md`](./03-pretraining/README.md)。
+
+- 预训练原理与 Scaling
+- 模型实现与单机实验
+- 大规模分布式训练
+- 训练效率与工程优化
+- 语料获取与清洗
+- 数据质量、检查与标注
+
 
 ---
 
 ## 4. 微调、对齐与强化学习 (Fine-tuning & Alignment)
 
-- **高效微调 (PEFT)**：LoRA, QLoRA, DoRA, Prefix-Tuning。
-- **偏好对齐 (RLHF / Direct Alignment)**：PPO, DPO, ORPO, SimPO, KTO。
-- **主流框架**：
-  - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - 统一的大模型高效微调框架
-  - [verl](https://github.com/volcengine/verl) - 灵活、高效的大模型强化学习框架
+让基座模型“听话”的关键阶段。
+
+梳理对齐原理综述、SFT 指令微调、RLHF / 偏好优化、安全对齐与前沿方向，含训练框架与工程实践。详见 [`04-alignment/README.md`](./04-alignment/README.md)。
+
+- 对齐原理与综述
+- SFT 与指令微调
+- RLHF、RLAIF 与偏好优化（PPO / DPO / ORPO / SimPO / KTO）
+- 安全对齐
+- 前沿方向
+- 训练框架与工程实践
 
 ---
 
-## 5. 模型能力扩展与 Skill (Model Skills & Capabilities)
+## 5. 推理加速与工程部署 (Inference & Deployment)
 
-- **长文本 (Long Context)**：Needle-in-a-Haystack, RoPE 外推 (YaRN), Chunked Attention.
-- **推理与思考链 (CoT & Reasoning)**：Chain-of-Thought, Tree-of-Thoughts, Self-Correction, DeepSeek-R1 式强化学习推理。
-- **多模态扩展**：Vision-Language Models (LLaVA, Qwen-VL)。
+从模型权重到生产服务的最后一公里。
 
----
+覆盖推理引擎与运行时、性能优化、服务化部署、本地轻量化推理与 LLMOps，含博客教程与工程实践。详见 [`05-inference-deployment/README.md`](./05-inference-deployment/README.md)。
 
-## 6. 检索增强生成 (RAG & Knowledge Integration)
-
-- ** Parsing & Chunking**：文档版面分析、语义 Chunking 策略。
-- **Embedding & Reranking**：向量检索、Sparse+Dense 混合检索、Reciprocal Rank Fusion (RRF)。
-- **Advanced RAG**：GraphRAG, Modular RAG, Corrective RAG (CRAG).
-- **主流框架**：[LlamaIndex](https://github.com/run-llama/llama_index), [LangChain](https://github.com/langchain-ai/langchain).
+- 推理引擎与运行时
+- 推理性能优化
+- 服务化与部署架构
+- 本地、边缘与轻量化推理
+- LLMOps、资源索引与工程实践
+- 博客教程与工程实践
 
 ---
 
-## 7. LLM Agent & 应用开发 (Agents & Applications)
+## 6. 模型评估 (LLM Evaluation)
 
-- **Agent 范式**：ReAct, Plan-and-Solve, Memory 机制（Short/Long-term）。
-- **Tool-Use / Function Calling**：OpenAI Function Calling, OpenClaw, AutoGen, CrewAI.
+没有度量就没有改进。
+
+从评测原理综述到框架工具、公开基准、LLM-as-Judge、应用与安全评测、官方云评测服务，系统建立评测知识全景。详见 [`06-llm-evaluation/README.md`](./06-llm-evaluation/README.md)。
+
+- 评测原理与综述
+- 评测框架与工具
+- 排行榜与公开基准
+- LLM-as-Judge 与自动评测
+- 应用与安全评测
+- 官方平台与云评测服务
+- 学习资源与社区导航
 
 ---
 
-## 8. 推理加速与工程部署 (Inference & Deployment)
+## 7. 安全与伦理 (Safety & Ethics)
 
-- **推理引擎**：
-  - [vLLM](https://github.com/vllm-project/vllm) - 高吞吐 PagedAttention 推理引擎
-  - [SGLang](https://github.com/sgl-project/sglang) - 高效 LLM 结构化生成与推理框架
-  - [llama.cpp](https://github.com/ggerganov/llama.cpp) - 极简 C/C++ 本地模型运行库
-- **量化技术**：AWQ, GPTQ, GGUF, FP8/FP4 Quantization.
+负责任地构建与使用大模型。
+
+本项目体量最大的章节之一，从 Awesome 清单到对齐、越狱攻防、护栏防护、应用安全、多模态安全、伦理与治理、厂商政策、学术跟踪到社区门户，13 个子方向全景覆盖。详见 [`07-safety-ethics/README.md`](./07-safety-ethics/README.md)。
+
+- AI 安全综合资源汇总（Awesome 清单）
+- 安全对齐与价值观（Alignment）
+- 越狱攻防与红队测试（Jailbreak & Red Teaming）
+- 安全护栏与防护工具（Guardrails & Defense）
+- LLM 应用安全与威胁情报（OWASP / MITRE / LLMSecOps）
+- 多模态安全（MLLM / LVLM Safety）
+- 安全评估与基准、伦理与负责任 AI、厂商政策、学术论文、课程、机构与社区
 
 ---
 
-## 9. 模型评估、安全与红队测试 (Evaluation & Safety)
+## 8. 应用开发 (Applications)
 
-- **评估基准**：MMLU, GSM8K, HumanEval, LMSYS Chatbot Arena.
-- **安全与防护**：Jailbreak 攻防, Prompt Injection 防范, [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails).
+把模型能力转化为真实产品。
 
+本章按应用范式拆分为 6 个子主题，从提示词、RAG、Agent 到 AI 编程、深度研究与 MaaS，覆盖从交互层到服务层的完整应用栈。各子目录均配有独立 README。
+
+### 8.1 提示词工程 (Prompt Engineering)
+
+从 Prompt 延伸到 Context、Harness 与 Loop Engineering，覆盖提示设计、上下文管理、工具编排与循环优化的完整工程链。详见 [`08-applications/8.1-prompt/README.md`](./08-applications/8.1-prompt/README.md)。
+
+- Prompt Engineer / Context Engineer / Harness Engineer / Loop Engineer
+
+### 8.2 检索增强生成 (RAG)
+
+从基础实践到高级方法、文档解析、知识库构建与生产级系统，含研究论文与资源导航。详见 [`08-applications/8.2-rag/README.md`](./08-applications/8.2-rag/README.md)。
+
+- RAG 基础与入门实践 / 标准 RAG 应用开发 / 高级 RAG 方法（GraphRAG、CRAG 等）
+- 文档解析与知识库构建 / 生产级 RAG 系统 / RAG 研究论文
+
+
+### 8.3 Agent、Skill 与 MCP
+
+本项目最大子章节，覆盖 Agent 范式与多智能体、Skill 技能体系与 MCP（模型上下文协议）工具生态。详见 [`08-applications/8.3-agents-skills-mcp/README.md`](./08-applications/8.3-agents-skills-mcp/README.md)。
+
+- **Agent**：ReAct、Plan-and-Solve、Memory 机制、多智能体框架（AutoGen / CrewAI / MetaGPT 等）
+- **Skill**：技能定义、封装与复用生态
+- **MCP**：模型上下文协议、工具集成与市场
+
+### 8.4 AI 编程 (AI Coding)
+
+从需求规格、编码协作、Skill / 插件集成到代码理解与知识图谱，含学习路径索引。详见 [`08-applications/8.4-ai-coding/README.md`](./08-applications/8.4-ai-coding/README.md)。
+
+- 需求、规格与规划 / 编码协作与代码交付 / Skill、插件与工具集成 / 代码理解、检索与知识图谱 / 学习路径与资源索引
+
+### 8.5 Deep Research 深度研究
+
+按技术架构梳理开源深度研究框架，含 LangGraph 状态机系、RAG 向量检索系、轻量复刻系与相邻方向。详见 [`08-applications/8.5-deepresearch/README.md`](./08-applications/8.5-deepresearch/README.md)。
+
+- LangGraph 状态机系 / RAG + 向量检索系 / 轻量级实现 / 复刻系 / 泛 AI 应用 / 相邻方向
+
+### 8.6 MaaS 模型即服务
+
+聚焦 LLM 网关与模型聚合平台、企业级 AI 应用平台。详见 [`08-applications/8.6-Maas/README.md`](./08-applications/8.6-Maas/README.md)。（
+
+- API 网关与模型聚合 / 企业级 AI 应用平台
+
+---
+
+## 9. 综合资源 (Resources)
+
+跨章节的横向资源集合，含面试、论文、博客与同类项目四个清单，适合系统性补强与横向对照。
+
+| 清单 | 说明 | 条目概览 |
+|------|------|----------|
+| [`llm-interview.md`](./09-resources/llm-interview.md) | LLM / AI 面试资源 | 90 条，按平台分 12 类（题库、Agent、课程、官方博客、中文社区等） |
+| [`paper-list.md`](./09-resources/paper-list.md) | LLM 经典与前沿论文 | 按主题分 10 类（综述、Agent、推理、训练、RAG、高效系统、评测安全、多模态等） |
+| [`blog-list.md`](./09-resources/blog-list.md) | 优质博客与站点 | 牛人博客、官方工程博客、中文社区、深度研究站点 4 章 |
+| [`similar-projects.md`](./09-resources/similar-projects.md) | 同类 / 可参考开源项目 | 55 个独立项目，按形态分 9 类（Awesome 列表、课程、路线图、从零复现等） |
+
+---
+
+
+## 🛠 目录结构 (Project Structure)
+
+```text
+llm-learning-roadmap/
+├── README.md                   # 总览与路线图（本文件）
+├── CONTRIBUTING.md             # 贡献规范
+├── 01-fundamentals/             # 基础理论与核心原理
+├── 02-data-engineering/         # 数据工程
+├── 03-pretraining/              # 预训练与基座模型
+├── 04-alignment/                # 微调、对齐与强化学习
+├── 05-inference-deployment/     # 推理加速与工程部署
+├── 06-llm-evaluation/          # 模型评估
+├── 07-safety-ethics/           # 安全与伦理
+├── 08-applications/             # 应用开发
+│   ├── 8.1-prompt/              #   提示词工程
+│   ├── 8.2-rag/                 #   检索增强生成
+│   ├── 8.3-agents-skills-mcp/   #   Agent、Skill 与 MCP
+│   ├── 8.4-ai-coding/           #   AI 编程
+│   ├── 8.5-deepresearch/        #   Deep Research 深度研究
+│   └── 8.6-Maas/                #   MaaS 模型即服务
+└── 09-resources/                # 综合资源（面试 / 论文 / 博客 / 相似项目）
+```
+
+> **学习路径建议**：可按目录编号 01→09 顺序系统推进；已有基础者可按需跳读。工程实践导向的同学建议重点研读 `02 数据工程` → `04 对齐` → `05 推理部署` → `08 应用`；研究导向的同学建议重点研读 `01 基础` → `03 预训练` → `06 评测` → `07 安全`。
 ---
 
 ## 🤝 贡献指南 (Contributing)
 
 非常欢迎你为本项目贡献资源或修改建议！在提交 Pull Request 前，请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md) 规范。
 
+- 📌 推荐以 **增量文件（如 `incre.txt`）** 的形式提交新链接，由维护者统一分类落地，避免直接改动各章 README 造成冲突。
+- 📝 每条资源请尽量提供：**项目 / 文章名称、链接、40–80 字简介**。
+- ✅ GitHub 项目会自动配上 `shields.io` 星标徽章，格式见各章 README。
+
 ---
 
 ## 📄 开源协议 (License)
 
-本项目采用 [MIT License](./LICENSE) 许可证开源。
+本项目采用 [MIT License](./LICENSE) 许可证开源。所收录的第三方资源版权归原作者所有，本仓库仅做索引与导航。
