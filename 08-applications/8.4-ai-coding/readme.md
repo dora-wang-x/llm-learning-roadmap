@@ -50,6 +50,10 @@
 - <img src="https://img.shields.io/github/stars/AsyncFuncAI/deepwiki-open?style=social" height="17" align="texttop"/> [deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open): DeepWiki 的开源实现，对代码仓库做 AI 分析并自动生成 Wiki、架构图，支持基于 RAG 的代码问答，适合本地构建代码理解服务。
 - <img src="https://img.shields.io/github/stars/colbymchenry/codegraph?style=social" height="17" align="texttop"/> [codegraph](https://github.com/colbymchenry/codegraph): 构建本地预索引的代码知识图谱，提供符号关系、调用关系与语义代码检索，适合快速理解陌生代码库的结构与依赖。
 - <img src="https://img.shields.io/github/stars/Egonex-AI/Understand-Anything?style=social" height="17" align="texttop"/> [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything): 将代码库转换为可交互知识图谱，支持结构探索、语义搜索与代码问答，适合以图谱方式梳理大型项目架构。
+- <img src="https://img.shields.io/github/stars/DeusData/codebase-memory-mcp?style=social" height="17" align="texttop"/> [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp): 将代码库索引为持久化知识图谱，支持 158 种语言与亚毫秒级查询，单二进制零依赖，适合大型仓库调用链追踪与影响分析。
+- <img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=social" height="17" align="texttop"/> [graphify](https://github.com/Graphify-Labs/graphify): 通过 tree-sitter 本地 AST 解析将代码库转为可查询知识图谱，每条边标注来源，无需向量存储，适合代码与文档的混合探索。
+- <img src="https://img.shields.io/github/stars/abhigyanpatwari/GitNexus?style=social" height="17" align="texttop"/> [GitNexus](https://github.com/abhigyanpatwari/GitNexus): 浏览器端运行的零服务代码知识图谱引擎，支持 17 个 MCP 工具与 14+ 种语言，提供影响分析、语义搜索与可视化图谱探索。
+- <img src="https://img.shields.io/github/stars/tirth8205/code-review-graph?style=social" height="17" align="texttop"/> [code-review-graph](https://github.com/tirth8205/code-review-graph): 本地优先的代码智能图谱，通过爆炸半径分析追踪变更影响，30 个 MCP 工具，基准测试中审查 token 消耗减少约 65 倍。
 - [DeepWiki](https://deepwiki.com/)：在线代码理解与文档生成服务，对仓库进行自动分析与 Wiki 化呈现，可作为 deepwiki-open 的产品化参考与能力对比对象。
 - <img src="https://img.shields.io/github/stars/sourcegraph/sourcegraph-public-snapshot?style=social" height="17" align="texttop"/> [sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot): Sourcegraph 的公开快照仓库，用于研究大型代码库搜索、代码导航、引用分析与 Cody AI 架构，适合学习代码智能平台的工程实现。
 
