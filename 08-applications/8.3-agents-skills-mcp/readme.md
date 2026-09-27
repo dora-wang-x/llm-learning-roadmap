@@ -3,7 +3,6 @@
 
 ### 1.1 基础理论、官方指南与学习课程
 - <img src="https://img.shields.io/github/stars/xindoo/agentic-design-patterns?style=social" height="17" align="texttop"/> [agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns) | [pdf下载](https://assets.jimmysong.io/books/agentic-design-patterns-zh-20251208.pdf) | [在线阅读](https://adp.xindoo.xyz/): 谷歌新书Agent设计模式(agentic design patterns)最佳中文版，系统介绍了 AI Agent 系统的各种设计模式，涵盖从基础到高级的 21 个核心模式。
-
 - [AI Agent 教程](https://www.runoob.com/ai-agent/ai-agent-tutorial.html)：中文介绍智能体的组成、规划、记忆和工具调用流程，适合初学者建立从模型对话到自主任务执行的基础认知。
 - [Hugging Face Agents Course](https://huggingface.co/learn/agents-course)：Hugging Face 的智能体课程，覆盖工具调用、规划、观察和多智能体概念，并配有实践练习帮助掌握开发流程。
 - <img src="https://img.shields.io/github/stars/huggingface/agents-course?style=social" height="17" align="texttop"/> [agents-course](https://github.com/huggingface/agents-course): Hugging Face 智能体课程的开源教材与代码，涵盖 Agent 基础、工具使用和评测，适合本地学习与复现实验。
@@ -54,6 +53,8 @@
 - <img src="https://img.shields.io/github/stars/SciPhi-AI/R2R?style=social" height="17" align="texttop"/> [R2R](https://github.com/SciPhi-AI/R2R): 生产级 RAG 框架，提供文档摄取、检索、Agent 工具与 MCP 集成能力，适合将检索增强能力以服务化方式接入智能体。
 - <img src="https://img.shields.io/github/stars/tvytlx/ai-agent-deep-dive?style=social" height="17" align="texttop"/> [ai-agent-deep-dive](https://github.com/tvytlx/ai-agent-deep-dive): AI Agent 源码深度研究报告。
 - <img src="https://img.shields.io/github/stars/langflow-ai/langflow?style=social" height="17" align="texttop"/> [langflow](https://github.com/langflow-ai/langflow): Langflow 是一个可视化构建和部署 AI 智能体与工作流的平台，支持主流大模型与向量数据库，可将流程一键发布为 API 或 MCP 服务。
+- <img src="https://img.shields.io/github/stars/zhayujie/CowAgent?style=social" height="17" align="texttop"/> [CowAgent](https://github.com/zhayujie/CowAgent): CowAgent 是一个开源的超级 AI 助理，能够主动思考和规划任务、操作计算机和外部资源、创造和执行 Skills、构建知识库与长期记忆、创建多智能体团队，并通过自主进化与你一同成长，是 Agent Harness 工程的最佳实践之一。
+
 
 
 ### 1.3 记忆、推理、研究与项目索引

@@ -21,7 +21,7 @@
 - [fast-and-efficient-llm-inference-with-vllm](https://www.deeplearning.ai/courses/fast-and-efficient-llm-inference-with-vllm)：DeepLearning.AI 的 vLLM 课程，实践 PagedAttention、连续批处理、KV Cache 管理和服务部署，适合理解高效推理核心机制。
 - [2026-03-14-llm-inference-optimization-vllm](https://www.youngju.dev/blog/llm/2026-03-14-llm-inference-optimization-vllm-tensorrt-speculative-decoding.en)：对比 vLLM、TensorRT-LLM 与投机解码的优化文章，讨论吞吐、延迟和部署策略，适合建立推理性能调优思路。
 - <img src="https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=social" height="17" align="texttop"/> [ktransformers](https://github.com/kvcache-ai/ktransformers): 清华等开源的异构推理与微调框架，通过 CPU-GPU 协同计算，让消费级硬件也能高效运行和微调 DeepSeek、Kimi 等千亿级 MoE 大模型。
-
+- <img src="https://img.shields.io/github/stars/OpenDCAI/DataFlex?style=social" height="17" align="texttop"/> [DataFlex](https://github.com/OpenDCAI/DataFlex): DataFlex 是一个构建在 LLaMA-Factory 之上的高级动态训练框架。 它能够在训练过程中智能地调度数据，并将若干难以复现的工作整合进统一框架，提供 数据选择、数据配比 与 数据重加权 的可复现实现，从而同时提升实验可复现性与最终模型性能。
 
 ## 2. 推理性能优化
 

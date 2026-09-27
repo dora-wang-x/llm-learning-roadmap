@@ -115,6 +115,8 @@
 - [Anthropic MLE Interview Guide（Exponent / Aced）](https://www.tryexponent.com/guides/anthropic-machine-learning-engineer-interview)：Exponent 出品的 Anthropic 机器学习工程师面试指南，拆解招聘流程各轮次，提供真实例题与备考建议。
 - [AI Career Advice（Sundeep Teki）](https://www.sundeepteki.org/advice/ai-career-advice-openai-anthropic-deepmind-interview-prep)：针对 OpenAI、Anthropic、DeepMind 面试的职业建议文章，分享前沿 AI 公司的求职准备心得。
 
+- <img src="https://img.shields.io/github/stars/EmbraceAGI/AIGC_Interview?style=social" height="17" align="texttop"/> [AIGC_Interview](https://github.com/EmbraceAGI/AIGC_Interview):  AIGC 求职面经、必备基础知识、提示词工程、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切。
+
 ## 12 求职辅导 / 职业规划平台
 
 - [Interview AiBox（英文版）](https://interviewaibox.co/en/blog/openai-anthropic-google-deepmind-interview-differences-2026)：Interview AiBox 英文版，对比 OpenAI、Anthropic、DeepMind 面试差异，帮助候选人针对不同公司校准表达。

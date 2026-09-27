@@ -10,6 +10,12 @@
 - <img src="https://img.shields.io/github/stars/google-research/bert?style=social" height="17" align="texttop"/> [bert](https://github.com/google-research/bert): BERT 官方实现包含 MLM、NSP 预训练代码及 GLUE、SQuAD 微调脚本，是理解双向 Transformer 预训练和复现实验的经典参考。
 - <img src="https://img.shields.io/github/stars/datawhalechina/learn-nlp-with-transformers?style=social" height="17" align="texttop"/> [learn-nlp-with-transformers](https://github.com/datawhalechina/learn-nlp-with-transformers): Datawhale 中文教程结合 NLP 理论与 Transformers 实战，覆盖文本分类、序列标注和预训练模型使用，适合初学者边学边练。
 - <img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" height="17" align="texttop"/> [transformers](https://github.com/huggingface/transformers): Hugging Face Transformers 是主流预训练模型库，提供模型、Tokenizer、训练器和推理接口，支持文本、多模态模型的训练与部署。
+- <img src="https://img.shields.io/github/stars/harvardnlp/annotated-transformer?style=social" height="17" align="texttop"/> [annotated-transformer](https://github.com/harvardnlp/annotated-transformer) | [The Annotated Transformer
+](https://nlp.seas.harvard.edu/annotated-transformer/): 哈佛 NLP 出品的 Transformer 论文逐行注释实现，通过 Jupyter Notebook 将原论文公式与 PyTorch 代码一一对应讲解，是学习 Transformer 架构的经典教程。
+- <img src="https://img.shields.io/github/stars/leerumor/nlp_tutorial?style=social" height="17" align="texttop"/> [nlp_tutorial](https://github.com/leerumor/nlp_tutorial): NLP超强入门指南，包括各任务sota模型汇总（文本分类、文本匹配、序列标注、文本生成、语言模型），以及代码、技巧。
+- <img src="https://img.shields.io/github/stars/thunlp/PLMpapers?style=social" height="17" align="texttop"/> [PLMpapers](https://github.com/thunlp/PLMpapers):Must-read Papers on pre-trained language models.
+- <img src="https://img.shields.io/github/stars/jessevig/bertviz?style=social" height="17" align="texttop"/> [bertviz](https://github.com/jessevig/bertviz): BertViz: Visualize Attention in Transformer Models.
+
 
 ## 2. LLM 核心原理与模型架构
 
@@ -36,6 +42,9 @@
 - <img src="https://img.shields.io/github/stars/datawhalechina/so-large-lm?style=social" height="17" align="texttop"/> [so-large-lm](https://github.com/datawhalechina/so-large-lm): 结合 Stanford CS324 与李宏毅课程，整理数据、模型、训练、评估、安全和伦理内容，适合作为中文 LLM 全链路学习路线。
 - <img src="https://img.shields.io/github/stars/Lordog/dive-into-llms?style=social" height="17" align="texttop"/> [dive-into-llm](https://github.com/Lordog/dive-into-llms): 《动手学大模型》编程实践教程，通过循序渐进的代码讲解模型结构、训练和应用，适合将理论知识转化为可运行实验。
 - <img src="https://img.shields.io/github/stars/datawhalechina/self-llm?style=social" height="17" align="texttop"/> [self-llm](https://github.com/datawhalechina/self-llm): 《开源大模型食用指南》面向中文开发者，覆盖国内外开源模型部署、全参数微调、LoRA 和多模态实践。
+- <img src="https://img.shields.io/github/stars/peremartra/Large-Language-Model-Notebooks-Course?style=social" height="17" align="texttop"/> [Large-Language-Model-Notebooks-Course](https://github.com/peremartra/Large-Language-Model-Notebooks-Course): 这是一个关于大语言模型的实战课程仓库，通过大量 Jupyter Notebook 讲解 OpenAI、LangChain、Hugging Face 的使用，涵盖 RAG、微调、评估与剪枝等技术。
+
+
 
 ## 4. LLM 工程与应用开发基础
 
