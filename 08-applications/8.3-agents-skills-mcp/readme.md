@@ -52,6 +52,9 @@
 - <img src="https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social" height="17" align="texttop"/> [ChatDev](https://github.com/OpenBMB/ChatDev): 以聊天驱动软件开发的多智能体实验框架，将开发流程拆解为可配置的 Agent 角色对话链，适合研究 Agent 交互协议与流程编排。
 - <img src="https://img.shields.io/github/stars/bytedance/deer-flow?style=social" height="17" align="texttop"/> [deer-flow](https://github.com/bytedance/deer-flow): 字节跳动的深度研究 Agent 框架（Deep Exploration and Efficient Research Flow），结合 LangGraph 与多智能体协作完成调研、写作与报告生成，适合构建研究型工作流。
 - <img src="https://img.shields.io/github/stars/SciPhi-AI/R2R?style=social" height="17" align="texttop"/> [R2R](https://github.com/SciPhi-AI/R2R): 生产级 RAG 框架，提供文档摄取、检索、Agent 工具与 MCP 集成能力，适合将检索增强能力以服务化方式接入智能体。
+- <img src="https://img.shields.io/github/stars/tvytlx/ai-agent-deep-dive?style=social" height="17" align="texttop"/> [ai-agent-deep-dive](https://github.com/tvytlx/ai-agent-deep-dive): AI Agent 源码深度研究报告。
+- <img src="https://img.shields.io/github/stars/langflow-ai/langflow?style=social" height="17" align="texttop"/> [langflow](https://github.com/langflow-ai/langflow): Langflow 是一个可视化构建和部署 AI 智能体与工作流的平台，支持主流大模型与向量数据库，可将流程一键发布为 API 或 MCP 服务。
+
 
 ### 1.3 记忆、推理、研究与项目索引
 
@@ -76,6 +79,16 @@
 - <img src="https://img.shields.io/youtube/views/0WH0yRxExA0?style=social" height="17" align="texttop"/> [智能体与工具调用视频](https://www.youtube.com/watch?v=0WH0yRxExA0): 聚焦模型如何调用外部工具并完成多步骤任务，覆盖 Agent 循环、函数接口和执行反馈等核心工程主题。
 - <img src="https://img.shields.io/youtube/views/CQywdSdi5iA?style=social" height="17" align="texttop"/> [The Model Context Protocol](https://www.youtube.com/watch?v=CQywdSdi5iA): 介绍 MCP 的协议定位与工具连接方式，帮助理解客户端、服务器和模型如何通过标准接口共享外部能力与上下文。
 - <img src="https://img.shields.io/youtube/views/kOhLoixrJXo?style=social" height="17" align="texttop"/> [MCP 与 Agent 开发视频](https://www.youtube.com/watch?v=kOhLoixrJXo): 讲解 MCP 在智能体开发中的使用方式，涵盖服务器接入、工具调用和可扩展应用架构等关键主题。
+
+### 1.5 RSI (Recursive Self-Improvement)
+- <img src="https://img.shields.io/github/stars/microsoft/SkillOpt?style=social" height="17" align="texttop"/> [SkillOpt](https://github.com/microsoft/SkillOpt): SkillOpt 是微软开源项目，可迭代编辑自然语言技能文件，在文本空间自动优化智能体 Agent 的任务能力，产出可跨模型复用的技能产物。
+- <img src="https://img.shields.io/github/stars/lobehub/awesome-rsi?style=social" height="17" align="texttop"/> [awesome-rsi](https://github.com/lobehub/awesome-rsi) | [万字长文读懂 RSI](https://mp.weixin.qq.com/s/nY5jy7hwIG0fghMJWzYrDQ): RSI 递归自我改进主题的资源清单，汇总论文、开源项目与资料，方便开发者查阅 AI 自我迭代相关研究与代码。
+
+### 1.6 codex/claude code/DSH/Opencode运行机制
+- [Build skills](https://learn.chatgpt.com/docs/build-skills) | <img src="https://img.shields.io/github/stars/openai/codex?style=social" height="17" align="texttop"/> [codex](https://github.com/openai/codex) : 介绍 OpenAI 的 Skills，可拓展 ChatGPT 与 Codex 能力，封装指令资源形成可复用工作流，支持显隐式调用，可本地开发或打包为插件分发。
+- [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents?surface=app) | <img src="https://img.shields.io/github/stars/openai/codex?style=social" height="17" align="texttop"/> [codex](https://github.com/openai/codex): 介绍 ChatGPT 与 Codex 的子智能体，可并行委派任务减轻主线程上下文污染，支持自定义智能体，配置模型、推理强度与权限来处理复杂工作。
+
+
 
 ## 2. Skill
 

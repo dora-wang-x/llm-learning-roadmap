@@ -16,6 +16,7 @@
 - <img src="https://img.shields.io/github/stars/PhoebusSi/Alpaca-CoT?style=social" height="17" align="texttop"/> [Alpaca-CoT](https://github.com/PhoebusSi/Alpaca-CoT)：汇集指令微调数据与思维链（CoT）数据集的项目，统一数据格式并分析 CoT 对对齐效果的影响，便于构造多样化指令数据。
 - <img src="https://img.shields.io/github/stars/ConardLi/easy-dataset?style=social" height="17" align="texttop"/> [Easy Dataset](https://github.com/ConardLi/easy-dataset)：将 PDF/Markdown/DOCX 等领域文档自动转换为微调数据集的一站式工具，支持问题生成、领域标签树、答案与思维链生成及多格式导出。
 - <img src="https://img.shields.io/github/stars/Curated-Awesome-Lists/awesome-llms-fine-tuning?style=social" height="17" align="texttop"/> [awesome-llms-fine-tuning](https://github.com/Curated-Awesome-Lists/awesome-llms-fine-tuning)：微调相关资源汇总，收集参数高效微调、全量微调与对齐训练的论文、工具和实践案例。
+- <img src="https://img.shields.io/github/stars/tloen/alpaca-lora?style=social" height="17" align="texttop"/> [alpaca-lora](https://github.com/tloen/alpaca-lora)：Alpaca-LoRA 用低秩适配技术，让 LLaMA 模型能在消费级硬件上低成本指令微调。
 
 ## 3. RLHF、RLAIF 与偏好优化
 

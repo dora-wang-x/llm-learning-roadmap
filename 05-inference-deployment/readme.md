@@ -1,7 +1,7 @@
 # LLM 推理与部署资源索引
 
 ## 1. 推理引擎与运行时
-
+- <img src="https://img.shields.io/github/stars/bojieli/ai-infra-book?style=social" height="17" align="texttop"/> [ai-infra-book](https://github.com/bojieli/ai-infra-book): 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验。
 - [tensorrt-llm-nvidia](https://developer.nvidia.com/tensorrt-llm)：NVIDIA 的 TensorRT-LLM 产品入口，概览针对 NVIDIA GPU 的编译、量化、批处理和多 GPU 推理能力，适合评估高性能部署方案。
 - <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social" height="17" align="texttop"/> [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA 的开源 LLM 推理库，基于 TensorRT 优化算子、量化和多 GPU 执行，面向 NVIDIA GPU 上的低延迟高吞吐服务。
 - <img src="https://img.shields.io/github/stars/sgl-project/sglang?style=social" height="17" align="texttop"/> [sglang](https://github.com/sgl-project/sglang): 面向复杂 LLM/VLM 程序的开源服务框架，提供 RadixAttention 前缀缓存、约束解码和高效调度，适合 Agent 与结构化生成。
@@ -20,6 +20,8 @@
 
 - [fast-and-efficient-llm-inference-with-vllm](https://www.deeplearning.ai/courses/fast-and-efficient-llm-inference-with-vllm)：DeepLearning.AI 的 vLLM 课程，实践 PagedAttention、连续批处理、KV Cache 管理和服务部署，适合理解高效推理核心机制。
 - [2026-03-14-llm-inference-optimization-vllm](https://www.youngju.dev/blog/llm/2026-03-14-llm-inference-optimization-vllm-tensorrt-speculative-decoding.en)：对比 vLLM、TensorRT-LLM 与投机解码的优化文章，讨论吞吐、延迟和部署策略，适合建立推理性能调优思路。
+- <img src="https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=social" height="17" align="texttop"/> [ktransformers](https://github.com/kvcache-ai/ktransformers): 清华等开源的异构推理与微调框架，通过 CPU-GPU 协同计算，让消费级硬件也能高效运行和微调 DeepSeek、Kimi 等千亿级 MoE 大模型。
+
 
 ## 2. 推理性能优化
 

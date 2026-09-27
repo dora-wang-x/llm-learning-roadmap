@@ -13,6 +13,7 @@
 - <img src="https://img.shields.io/github/stars/crazyofapple/Reading_groups?style=social" height="17" align="texttop"/> [Reading_groups](https://github.com/crazyofapple/Reading_groups): 提供机器学习与大模型论文阅读小组资料。
 - <img src="https://img.shields.io/github/stars/zhaoyang97/Paper-Notes?style=social" height="17" align="texttop"/> [Paper-Notes](https://github.com/zhaoyang97/Paper-Notes): 汇总论文阅读笔记与研究心得。
 - <img src="https://img.shields.io/github/stars/InterviewReady/ai-engineering-resources?style=social" height="17" align="texttop"/> [ai-engineering-resources](https://github.com/InterviewReady/ai-engineering-resources): 整理 AI 工程实践所需的学习资料和工具资源。
+- <img src="https://img.shields.io/github/stars/HITsz-TMG/awesome-llm-attributions?style=social" height="17" align="texttop"/> [awesome-llm-attributions](https://github.com/HITsz-TMG/awesome-llm-attributions): 整大语言模型归因领域的文献综述仓库，系统整理了模型生成引用与证据的相关研究、数据集和方法。
 
 ## 智能体、多智能体与自主研究
 

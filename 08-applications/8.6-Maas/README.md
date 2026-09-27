@@ -7,6 +7,10 @@
 - <img src="https://img.shields.io/github/stars/QuantumNous/new-api?style=social" height="17" align="texttop"/> [new-api](https://github.com/QuantumNous/new-api): 下一代 LLM 网关与 AI 资产管理系统，由 QuantumNous 团队维护。支持将 30+ 主流服务商（OpenAI、Claude、Gemini、DeepSeek、Midjourney、Suno 等）聚合为统一接口，提供 OpenAI ↔ Claude / Gemini 协议互转、智能路由、故障切换、精细计费、令牌分组与用户管理，兼容 One API 数据库。适合自建 AI 接口中转站或企业 AI 中台（AGPLv3）。
 - [New API 官方文档](https://www.newapi.ai/zh)：new-api 的官方文档站，覆盖安装部署、渠道管理、令牌分发、计费与格式转换的完整说明，是使用与二开 new-api 的权威参考。
 - [RixAPI](https://platform.rixapi.com/)：商业 MaaS 聚合平台，持续集成最新 AI 模型（Google Gemini、OpenAI GPT 系列等 300+ 模型），提供统一 API 与按量计费（Input/Output 分别计价），面向开发者与企业提供高性能 AI 基础设施，适合需要免自托管、开箱即用的多模型接入场景。
+- <img src="https://img.shields.io/github/stars/hiddify/hiddify-app?style=social" height="17" align="texttop"/> [hiddify-app](https://github.com/hiddify/hiddify-app): 一款基于 Sing-box 的多平台代理客户端，支持 Vless、Reality、Hysteria 等协议，具备自动节点选择、订阅更新等功能，开源、安全且无广告。 
+
+
+
 
 ## 2 企业级 AI 应用平台
 

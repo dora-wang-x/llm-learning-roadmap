@@ -8,9 +8,17 @@
 - [Utilizing LLMs for Data Engineers-part1](https://medium.com/@2005669/utilizing-llms-for-data-engineers-a0f39ba28f85)：介绍数据工程师使用 LLM 的常见切入点，包括 SQL 与代码生成、文档辅助和数据任务分析，帮助识别适合人机协作的重复性工作。
 - [Utilizing LLMs for Data Engineers-part2](https://medium.com/@2005669/utilising-llms-for-data-engineers-part-2-db47ca42ec8b)：延续前文讨论 LLM 在数据工程中的落地方式，关注提示设计、任务验证与工程限制，适合结合具体管道评估自动化的可靠边界。
 - [RAG技术完整学习笔记：从0到1搭建生产级系统](https://www.cnblogs.com/2678066103hs/p/21603089)：中文实践文章，围绕大模型与数据工程结合的场景梳理工具和实现思路，适合快速了解本地开发语境下的数据处理应用方式。
+- <img src="https://img.shields.io/github/stars/esbatmop/MNBVC?style=social" height="17" align="texttop"/> [MNBVC](https://github.com/esbatmop/MNBVC): MNBVC(Massive Never-ending BT Vast Chinese corpus)超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。
+- <img src="https://img.shields.io/github/stars/brightmart/nlp_chinese_corpus?style=social" height="17" align="texttop"/> [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus): 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP。
+- <img src="https://img.shields.io/github/stars/jianzhnie/awesome-instruction-datasets?style=social" height="17" align="texttop"/> [awesome-instruction-datasets](https://github.com/jianzhnie/awesome-instruction-datasets): chatgpt 收录各种各样的指令数据集, 用于训练 ChatLLM 模型。
+
+
+
+
 
 ## 2. 清洗、去重与过滤
-
+- <img src="https://img.shields.io/github/stars/facebookresearch/cc_net?style=social" height="17" align="texttop"/> [facebookresearch/cc_net](https://github.com/facebookresearch/cc_net): Tools to download and cleanup Common Crawl data。
+- <img src="https://img.shields.io/github/stars/bigscience-workshop/data-preparation?style=social" height="17" align="texttop"/> [bigscience-workshop/data-preparation](https://github.com/bigscience-workshop/data-preparation): Code used for sourcing and cleaning the BigScience ROOTS corpus.
 - <img src="https://img.shields.io/github/stars/huggingface/datatrove?style=social" height="17" align="texttop"/> [datatrove](https://github.com/huggingface/datatrove): Hugging Face 的模块化数据处理库，提供过滤、去重、分词和数据读写等可组合管道模块，适合大规模文本语料的可定制清洗流程。
 - <img src="https://img.shields.io/github/stars/allenai/dolma?style=social" height="17" align="texttop"/> [dolma](https://github.com/allenai/dolma): AI2 发布的 OLMo 预训练数据及工具集合，覆盖语料构建、检查和处理流程，可用于研究开放预训练数据的来源、质量与配方。
 - <img src="https://img.shields.io/github/stars/NVIDIA-NeMo/Curator?style=social" height="17" align="texttop"/> [NeMo Curator](https://github.com/NVIDIA-NeMo/Curator): NVIDIA 的可扩展数据预处理与整理工具包，支持大规模文本和多模态数据过滤、去重及质量筛选，面向 LLM 训练语料构建场景。

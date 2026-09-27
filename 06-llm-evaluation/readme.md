@@ -23,6 +23,10 @@
 - <img src="https://img.shields.io/github/stars/huggingface/lighteval?style=social" height="17" align="texttop"/> [lighteval](https://github.com/huggingface/lighteval): Hugging Face 的轻量评测框架，对接 Open LLM Leaderboard 任务集与 Transformers/TRL，适合在 HF 栈内做模型评测。
 - <img src="https://img.shields.io/github/stars/UKGovernmentBEIS/inspect_ai?style=social" height="17" align="texttop"/> [inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai): 英国政府的 LLM 评测框架，支持任务设计、求解器、评分器与可扩展评测，适合构建安全与能力评测套件。
 - <img src="https://img.shields.io/github/stars/alopatenko/LLMEvaluation?style=social" height="17" align="texttop"/> [LLMEvaluation](https://github.com/alopatenko/LLMEvaluation): LLM 评测资源与工具合集，收录基准、方法与实现，适合作为评测调研的补充参考。
+- <img src="https://img.shields.io/github/stars/codefuse-ai/codefuse-devops-eval?style=social" height="17" align="texttop"/> [codefuse-devops-eval](https://github.com/codefuse-ai/codefuse-devops-eval): DevOps-Eval是一个专门为DevOps领域大模型设计的综合评估数据集。我们希望DevOps-Eval能够帮助开发者，尤其是DevOps领域的开发者，追踪进展并分析他们拥有的DevOps大模型的优势和不足之处。
+
+
+
 
 ## 3. 排行榜与公开基准
 

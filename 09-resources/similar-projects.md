@@ -16,6 +16,10 @@
 - <img src="https://img.shields.io/github/stars/rafska/awesome-local-llm?style=social" height="17" align="texttop"/> [awesome-local-llm](https://github.com/rafska/awesome-local-llm)：精选本地运行 LLM 的平台、工具、实践与资源清单，帮助在个人设备上落地大模型。
 - <img src="https://img.shields.io/github/stars/chengyuZou/Open-LLM?style=social" height="17" align="texttop"/> [Open-LLM](https://github.com/chengyuZou/Open-LLM)：一些与大模型相关的开源网站汇总，聚合模型下载、推理与工具等入口。
 - <img src="https://img.shields.io/github/stars/tingaicompass/AI-Compass?style=social" height="17" align="texttop"/> [AI-Compass](https://github.com/tingaicompass/AI-Compass)：为社区指引 AI 技术学习方向的"指南针"，覆盖 AI 核心概念、主流技术与前沿趋势，助开发者从理论到落地。
+- <img src="https://img.shields.io/github/stars/AiHubCN/Awesome-Chinese-LLM?style=social" height="17" align="texttop"/> [Awesome-Chinese-LLM](https://github.com/AiHubCN/Awesome-Chinese-LLM)：整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
+- <img src="https://img.shields.io/github/stars/wgwang/awesome-LLMs-In-China?style=social" height="17" align="texttop"/> [awesome-LLMs-In-China](https://github.com/wgwang/awesome-LLMs-In-China)：中国大模型大全，全面收集有明确来源的大模型情况，包括机构、来源信息和分类等，随时更新。
+- <img src="https://img.shields.io/github/stars/eugeneyan/open-llms?style=social" height="17" align="texttop"/> [open-llms](https://github.com/eugeneyan/open-llms)： A list of open LLMs available for commercial use.
+- <img src="https://img.shields.io/github/stars/chenking2020/FindTheChatGPTer?style=social" height="17" align="texttop"/> [FindTheChatGPTer](https://github.com/chenking2020/FindTheChatGPTer)： AChatGPT爆火，开启了通往AGI的关键一步，本项目旨在汇总那些ChatGPT的开源平替们，包括文本大模型、多模态大模型等，为大家提供一些便利。
 
 ## 2 系统课程 / 教程（courses）
 

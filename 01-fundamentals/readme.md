@@ -23,6 +23,7 @@
 - <img src="https://img.shields.io/github/stars/walkinglabs/modern-llm-notebook?style=social" height="17" align="texttop"/> [modern-llm-notebook](https://github.com/walkinglabs/modern-llm-notebook): 以 Jupyter Notebook 组织现代 LLM 学习内容，结合代码演示模型结构、训练和应用技术，适合边阅读边运行实验。
 - <img src="https://img.shields.io/github/stars/karpathy/nanoGPT?style=social" height="17" align="texttop"/> [nanoGPT](https://github.com/karpathy/nanoGPT): Andrej Karpathy 的极简 GPT 实现，用短小 PyTorch 代码展示数据处理、模型训练和生成流程，适合快速掌握 GPT 核心结构。
 - [斯坦福 CS324](https://stanford-cs324.github.io/winter2022)：斯坦福 CS324 课程讨论基础模型的训练数据、规模化、能力、评测和社会影响，适合从研究与系统视角理解 Foundation Models。
+- <img src="https://img.shields.io/github/stars/zyds/transformers-code?style=social" height="17" align="texttop"/> [transformers-code](https://github.com/zyds/transformers-code): 手把手带你实战 Huggingface Transformers 课程视频同步更新在B站与YouTube。
 
 ## 3. 从零训练与后训练实践
 

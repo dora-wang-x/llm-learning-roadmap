@@ -12,14 +12,16 @@
 - [GitHub Spec Kit Greenfield Intro](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-greenfield-intro/)：Microsoft Learn 的 Spec Kit 课程模块，介绍在新项目中从规格到实现的 Agent 协作流程，适合实践规范先行的开发方式。
 
 ## 2. 编码协作与代码交付
+- <img src="https://img.shields.io/github/stars/openinterpreter/openinterpreter?style=social" height="17" align="texttop"/> [openinterpreter](https://github.com/openinterpreter/openinterpreter): Open Interpreter 是一个专为低成本模型优化的编码智能体，基于 Codex 构建，支持多种模型与编辑器，可在本地终端运行并操作计算机。
 
 - <img src="https://img.shields.io/github/stars/cline/cline?style=social" height="17" align="texttop"/> [cline](https://github.com/cline/cline): 面向 VS Code 等编辑器的开源 AI 编码助手，支持模型自由切换、文件读写与终端操作，适合构建本地可控、可审计的代理式开发流程。
 - <img src="https://img.shields.io/github/stars/anthropics/claude-code?style=social" height="17" align="texttop"/> [claude-code](https://github.com/anthropics/claude-code): Anthropic 官方 CLI 编码 Agent，可直接在终端中完成代码库理解、修改与任务执行，适合深入命令行环境的研发协作与自动化。
 - <img src="https://img.shields.io/github/stars/anomalyco/opencode?style=social" height="17" align="texttop"/> [opencode](https://github.com/anomalyco/opencode): 开源、模型供应商无关的终端式编码 Agent，强调跨模型可移植与本地化运行，适合对比不同底层模型在编码任务中的表现。
+- [OpenCode 学习资源](https://learnopencode.com)：面向 AI 编码工具和工作流的学习站点，帮助开发者探索代理式开发、终端协作和项目级自动化的实践方法。
 - <img src="https://img.shields.io/github/stars/openai/openai-cookbook?style=social" height="17" align="texttop"/> [code_modernization](https://github.com/openai/openai-cookbook/blob/main/examples/codex/code_modernization.md): OpenAI Cookbook 的代码现代化示例，展示如何借助 Codex 分析遗留代码、制定迁移步骤并完成可验证的重构任务。
+- <img src="https://img.shields.io/github/stars/Gitlawb/openclaude?style=social" height="17" align="texttop"/> [openclaude](https://github.com/Gitlawb/openclaude): OpenClaude 是一款开源编码智能体命令行工具，支持 OpenAI、Gemini、Ollama 等云端与本地模型，提供统一的终端编码工作流，可随时切换模型供应商。
 - <img src="https://img.shields.io/github/stars/google/eng-practices?style=social" height="17" align="texttop"/> [eng-practices](https://github.com/google/eng-practices): Google 工程实践指南，覆盖代码审查、可读性与变更管理，可作为人机协作编码中质量标准和审查准则的参考。
 - [Vibe Coding 教程](https://www.runoob.com/vibe-coding/vibe-coding-tutorial.html)：中文介绍 Vibe Coding 的基本概念和实践流程，适合了解自然语言驱动编码的能力边界、协作方式与常见风险。
-- [OpenCode 学习资源](https://learnopencode.com)：面向 AI 编码工具和工作流的学习站点，帮助开发者探索代理式开发、终端协作和项目级自动化的实践方法。
 - [OpenAI Code Generation](https://developers.openai.com/api/docs/guides/code-generation)：OpenAI 官方代码生成指南，说明如何通过 API 生成、修改和解释代码，适合构建受约束的开发辅助能力。
 - [Pair Programming with LLMs](https://www.deeplearning.ai/courses/pair-programming-llm)：DeepLearning.AI 的结对编程课程，讲解如何与语言模型协同完成设计、实现、调试和代码解释等常见开发任务。
 - [OpenAI Codex](https://openai.com/codex/)：Codex 产品入口，介绍面向软件工程任务的代理式编码能力，适合了解代码库操作、任务执行和开发协作的产品实践。

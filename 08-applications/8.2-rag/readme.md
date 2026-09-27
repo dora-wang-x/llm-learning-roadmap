@@ -18,13 +18,18 @@
 - <img src="https://img.shields.io/github/stars/wangxb96/RAG-QA-Generator?style=social" height="17" align="texttop"/> [RAG-QA-Generator](https://github.com/wangxb96/RAG-QA-Generator): 面向 RAG 场景的自动化知识库构建工具，读取非结构化文档（txt/pdf/docx）并利用 LLM 自动生成问答对，用于训练和评测 RAG 系统。
 - [rag](https://python.langchain.com/v0.2/docs/tutorials/rag)：LangChain Python 教程中的 RAG 实战章节，从文档加载到问答链的完整代码教程。
 - <img src="https://img.shields.io/github/stars/run-llama/llama_index?style=social" height="17" align="texttop"/> [LlamaIndex](https://github.com/run-llama/llama_index/tree/main)：面向大语言模型应用的数据框架，提供文档连接器、索引、检索和 Agent 组件，适合搭建基于私有数据的 RAG 应用。
+- <img src="https://img.shields.io/github/stars/yuntianhe2014/Easy-RAG?style=social" height="17" align="texttop"/> [Easy-RAG](https://github.com/yuntianhe2014/Easy-RAG)：一套基于 LangChain 的 RAG 实战教程仓库，通过五个渐进式 Notebook 讲解从基础搭建到多查询、路由、重排序等高级检索技术。
+
 
 ## 3. 高级 RAG 方法
-
+- <img src="https://img.shields.io/github/stars/bragai/bRAG-langchain?style=social" height="17" align="texttop"/> [bRAG-langchain](https://github.com/bragai/bRAG-langchain): Agentic RAG 入门指南，介绍智能体驱动的检索增强生成方法、架构设计和实践模式。
 - <img src="https://img.shields.io/github/stars/aishwaryanr/awesome-generative-ai-guide?style=social" height="17" align="texttop"/> [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agentic_rag_101.md): Agentic RAG 入门指南，介绍智能体驱动的检索增强生成方法、架构设计和实践模式。
 - <img src="https://img.shields.io/github/stars/GURPREETKAURJETHRA/Advanced_RAG?style=social" height="17" align="texttop"/> [Advanced_RAG](https://github.com/GURPREETKAURJETHRA/Advanced_RAG): 高级 RAG 实践 Notebook 集合，使用 LangChain + OpenAI/LLaMA3，覆盖查询变换、路由、向量索引、检索机制、Self-RAG、Agentic RAG、Adaptive RAG 和 Corrective RAG 等 10 个主题。
 - <img src="https://img.shields.io/github/stars/NirDiamant/RAG_Techniques?style=social" height="17" align="texttop"/> [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques): 收集多种 RAG 技术的开放仓库，涵盖查询扩展、混合检索、重排序、多跳推理等进阶方法，配有可运行代码示例。
 - [contextual-retrieval](https://www.anthropic.com/engineering/contextual-retrieval)：Anthropic 提出的上下文检索方法，通过为每个文档块添加上下文摘要来提升检索精度，显著减少检索失败率。
+- <img src="https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG?style=social" height="17" align="texttop"/> [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)：一个可自我进化的检索智能体，能在本地直接搜索多源数据并验证答案，无需迁移文件，且会随使用反馈越来越聪明。
+- <img src="https://img.shields.io/github/stars/microsoft/graphrag?style=social" height="17" align="texttop"/> [graphrag](https://github.com/microsoft/graphrag)：微软 GraphRAG 是基于知识图谱的模块化检索增强生成系统，利用大模型从非结构化文本中提取结构化数据，增强对私有数据的推理问答能力。
+
 
 ## 4. 文档解析与知识库构建
 
@@ -33,10 +38,13 @@
 - [TextIn](https://www.textin.com/)：提供文档识别、版面分析和文字抽取等企业级 OCR 能力，用于将扫描件、表格和复杂版式转换为可检索文本。
 - <img src="https://img.shields.io/github/stars/opendatalab/MinerU?style=social" height="17" align="texttop"/> [MinerU](https://github.com/opendatalab/MinerU)：将 PDF、Office 等复杂文档转换为 LLM 可读的 Markdown 或 JSON，保留版面、表格和公式信息，便于构建高质量知识库。
 - <img src="https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social" height="17" align="texttop"/> [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | [PaddleOCR官网](https://aistudio.baidu.com/paddleocr)：百度飞桨生态的 OCR 工具和模型，支持多语言文字检测识别及版面、表格分析，可为 RAG 提供图片和扫描文档解析能力。
-
 - <img src="https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=social" height="17" align="texttop"/> [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)：Deepseek的 OCR 工具和模型，支持多语言文字检测识别及版面、表格分析，可为 RAG 提供图片和扫描文档解析能力。
-
 - <img src="https://img.shields.io/github/stars/hkuds/rag-anything?style=social" height="17" align="texttop"/> [RAG-Anything](https://github.com/hkuds/rag-anything)：面向多模态文档的全能 RAG 框架，统一处理文本、图像、表格和公式并进行跨模态检索，适合复杂资料库问答。
+
+- <img src="https://img.shields.io/github/stars/brandonstarxel/chunking_evaluation?style=social" height="17" align="texttop"/> [chunking_evaluation](https://github.com/brandonstarxel/chunking_evaluation)：这是 Chroma 技术报告配套的文本分块评估工具，提供多种分块策略实现与 token 级评估指标，帮助开发者对比选择适合检索增强生成的最佳方案。
+
+
+
 
 ## 5. 生产级 RAG 系统
 
@@ -59,6 +67,12 @@
 - <img src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social" height="17" align="texttop"/> [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)：本地优先的 LLM 工作台，集成文档工作区、RAG、Agent 和多模型接入，适合快速部署私有化 AI 助手。
 - <img src="https://img.shields.io/github/stars/n8n-io/n8n?style=social" height="17" align="texttop"/> [n8n](https://github.com/n8n-io/n8n)：可视化工作流自动化平台，支持连接模型、数据库、文件和 SaaS 服务，可编排文档入库、检索和回答等 RAG 流程。
 - <img src="https://img.shields.io/github/stars/czlonkowski/n8n-mcp?style=social" height="17" align="texttop"/> [n8n-mcp](https://github.com/czlonkowski/n8n-mcp)：为 n8n 提供 MCP 接口，让 Agent 能发现、配置并调用 n8n 工作流，适合将 RAG 管道接入工具调用生态。
+- <img src="https://img.shields.io/github/stars/Tencent/WeKnora?style=social" height="17" align="texttop"/> [WeKnora](https://github.com/Tencent/WeKnora) | [weknora介绍](https://weknora.weixin.qq.com/)：腾讯开源的企业级知识管理框架。汇集团队资料，用于知识问答、任务执行和 Wiki 整理。
+- <img src="https://img.shields.io/github/stars/HKUDS/LightRAG?style=social" height="17" align="texttop"/> [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)：港大数据智能实验室开源的高效检索增强生成框架，采用图结构与向量双层级架构，能低成本、高精度地处理大规模知识库查询。
+- <img src="https://img.shields.io/github/stars/vibrantlabsai/ragas?style=social" height="17" align="texttop"/> [ragas](https://github.com/vibrantlabsai/ragas)：一个用于评估和优化大语言模型应用的开源工具包，提供客观指标、自动测试集生成，并能与主流框架集成，助力构建数据驱动的评估工作流。
+
+
+
 
 ## 6. RAG 研究论文
 
@@ -66,6 +80,12 @@
 - [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://arxiv.org/abs/2401.05856)：总结真实 RAG 项目中的七类工程失效点，讨论运行中验证、鲁棒性演化和系统设计经验，适合生产实践参考。
 - [Synergizing RAG and Reasoning: A Systematic Review](https://arxiv.org/pdf/2504.15909)：系统梳理检索与多步推理的协同范式、技术实现和评测局限，并总结图知识融合等研究方向。
 - [A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges](https://arxiv.org/pdf/2508.06401)：综述 RAG 的检索与生成技术、评测指标及开放挑战，适合作为研究选题和方案比较的导航资料。
+- [Retrieval-Augmented Generation for AI-Generated Content A Survey](https://arxiv.org/pdf/2402.19473) | <img src="https://img.shields.io/github/stars/hymie122/RAG-Survey?style=social" height="17" align="texttop"/> [Github](https://github.com/hymie122/RAG-Survey) ：系统性地综述了检索增强生成（RAG）在AIGC中的应用，涵盖了RAG的基础范式、增强方法、跨模态应用、评估基准、局限性及未来方向。
+- [Agentic Retrieval-Augmented Generation  A Survey On Agentic RAG](https://arxiv.org/pdf/2501.09136) | <img src="https://img.shields.io/github/stars/asinghcsu/AgenticRAG-Survey?style=social" height="17" align="texttop"/> [Github](https://github.com/asinghcsu/AgenticRAG-Survey) ：第一篇系统梳理Agentic RAG（智能体检索增强生成）的综述，研究如何将自主 AI 智能体嵌入 RAG 流水线，解决传统 RAG 静态流水线、多步推理弱、自适应不足的缺陷。
+- <img src="https://img.shields.io/github/stars/Raudaschl/rag-fusion?style=social" height="17" align="texttop"/> [rag-fusion](https://github.com/Raudaschl/rag-fusion)：通过大模型生成多角度查询并结合倒数排名融合重新排序检索结果，能捕捉单一查询遗漏的相关内容，提升检索增强生成的召回率与答案质量。
+
+- <img src="https://img.shields.io/github/stars/FudanDNN-NLP/RAG?style=social" height="17" align="texttop"/> [FudanDNN-NLP/RAG](https://github.com/FudanDNN-NLP/RAG)：复旦大学团队的 RAG 最佳实践论文实现，系统评估了检索增强生成各环节的技术方案，为构建高效 RAG 流程提供可复现的实证指导。
+
 
 ## 7. 学习与资源导航
 
